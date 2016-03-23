@@ -1,0 +1,23 @@
+{
+  "name": "pocketguide-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfunk/pocketguide-web-server.git"
+  },
+  "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (http://andrewhutchings.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayfunk/pocketguide-web-server/issues"
+  },
+  "homepage": "https://github.com/jayfunk/pocketguide-web-server#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4"
+  }
+}
