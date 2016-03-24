@@ -4,14 +4,14 @@
   "description": "",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jayfunk/pocketguide-web-server.git"
   },
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (http://andrewhutchings.com)",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/jayfunk/pocketguide-web-server/issues"
   },
@@ -23,5 +23,8 @@
     "googleapis": "^4.0.0",
     "lodash": "^4.6.1",
     "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8"
   }
 }
