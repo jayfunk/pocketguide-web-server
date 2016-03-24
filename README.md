@@ -1,4 +1,4 @@
-# pocketguide-web-server
+# Pocket Guide Web Server
 
 ## Configuring
 
