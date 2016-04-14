@@ -1,11 +1,11 @@
 require('dotenv').config({ silent: true })
 
 const express = require('express')
-const events = require('./lib/events')
+const mobile = require('./lib/mobile')
 
 const app = express()
 
-app.get('/api/events', events)
+app.get('/api/mobile', mobile)
 
 const port = process.env.PORT
 const server = app.listen(port, function () {

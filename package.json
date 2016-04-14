@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "start": "node server.js",
-    "test": "standard"
+    "test:lint": "standard",
+    "test:unit": "ava",
+    "test": "npm run test:lint && npm run test:unit"
   },
   "repository": {
     "type": "git",
@@ -17,14 +19,16 @@
   },
   "homepage": "https://github.com/jayfunk/pocketguide-web-server#readme",
   "dependencies": {
+    "bluebird": "^3.3.5",
     "csv": "^0.4.6",
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "googleapis": "^4.0.0",
     "lodash": "^4.6.1",
-    "request": "^2.69.0"
+    "request-promise": "^2.0.1"
   },
   "devDependencies": {
+    "ava": "^0.14.0",
     "standard": "^6.0.8"
   }
 }
