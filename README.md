@@ -31,3 +31,6 @@ MEMCACHE_SERVERS=<host and port>
 MEMCACHE_USERNAME=<username>
 MEMCACHE_PASSWORD=<password>
 ```
+
+### Note
+Ensure the file id is shared with the client email registered for google services.
